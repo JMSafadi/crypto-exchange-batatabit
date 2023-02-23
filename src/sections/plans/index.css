@@ -1,0 +1,218 @@
+.main-plans-container {
+  width: 100%;
+  min-width: 320px;
+  padding-bottom: 70px;
+  text-align: center;
+  background-color: var(--off-white);
+}
+
+.plans--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.plans--title h2 {
+  padding-top: 50px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+
+.plans--title p {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  color: #757575;
+}
+
+
+
+.plans-container--card {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 190px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px 5px 0;
+  padding: 0 15px;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.basic {
+  position: absolute;
+  background-color: var(--bitcoin-orange);
+  width: 120px;
+  height: 31px;
+  border-radius: 8px;
+  color: var(--just-white);
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 6px;
+}
+
+.recommended {
+  position: absolute;
+  background-color: #1a9af7;
+  width: 120px;
+  height: 31px;
+  border-radius: 8px;
+  color: var(--just-white);
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 6px;
+}
+
+.plans-container--card--unlimited {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 190px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px 5px 0;
+  padding: 0 15px;
+  background-color: var(--warm-black);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plans-container--card--unlimited .plan-info-container h3{
+  color: white;
+}
+
+.plans-container--card--unlimited .plan-info-container .plan-card--price {
+  color: white;
+}
+
+.plan-card--price .unlimited-span {
+  position: absolute;
+  left: calc(15% - 10px);
+}
+
+.plans-container--card--unlimited button {
+  width: 150px;
+  height: 48px;
+  border: 2px solid var(--bitcoin-orange);
+  margin-top: 20px;
+  background-color: var(--warm-black);
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.plan-card--unlimited--saving {
+  color: var(--off-white);
+}
+
+.unlimited {
+  position: absolute;
+  background-color: var(--grey);
+  width: 120px;
+  height: 31px;
+  border-radius: 8px;
+  color: var(--just-white);
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 6px;
+}
+
+.plan-info-container h3 {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: black;
+}
+
+.plan-card--price {
+  padding: 5px 0;
+  font-size: 5.2rem;
+  font-weight: bold;
+  color: black;
+  position: relative;
+}
+
+.plan-card--price span {
+  font-size: 1.2rem;
+  font-weight: 300;
+  position: absolute;
+  left: calc(35% - 15px);
+  top: 17px;
+}
+
+.plan-card--saving {
+  font-size: 1.2rem;
+  color: #757575;
+}
+
+.plans-container--card button {
+  width: 150px;
+  height: 48px;
+  border: 2px solid var(--bitcoin-orange);
+  margin-top: 20px;
+  background-color: var(--off-white);
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--black);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.plans-container--card--recommended {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 190px;
+  margin: 0 auto;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px 5px 0;
+  padding: 0 15px;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plan-info--arrow {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/icons/orange-right-arrow.svg);
+  vertical-align: text-bottom;
+}
+
+.plans-container--slider {
+  margin: auto 40px;
+  display: flex;
+  gap: 5px;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.plans-container--slider::-webkit-scrollbar {
+  background-color: var(--soft-orange);
+  height: 3px;
+}
+.plans-container--slider::-webkit-scrollbar-thumb {
+  background-color: var(--bitcoin-orange);
+}
