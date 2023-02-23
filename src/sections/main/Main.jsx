@@ -4,12 +4,18 @@ import './index.css'
 
 const Main = () => {
 
+  // const getDate = () => {
+  //   const today = new Date()
+  //   const day = today.getDate()
+  //   const mounth = today.getMonth() + 1
+  //   const year = today.getFullYear()
+  //   const date = `${day}/${mounth}/${year}`
+  //   return date
+  // }
+
   const getDate = () => {
     const today = new Date()
-    const day = today.getDate()
-    const mounth = today.getMonth() + 1
-    const year = today.getFullYear()
-    const date = `${day}/${mounth}/${year}`
+    const date = today.toLocaleString()
     return date
   }
 
