@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+  .main__table-container {
+    max-width: 850px;
+    height: 530px;
+  }
+
+  .table {
+    display: grid;
+    grid-template-columns: 10% 20% 24% 24% 20%
+  }
+
+  .header {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    align-self: center;
+    border: none;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .disable {
+    display: block;
+  }
+}

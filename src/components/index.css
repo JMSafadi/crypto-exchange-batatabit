@@ -10,7 +10,7 @@
   min-width: 230px;
   max-width: 300px;
   margin: auto;
-  height: 500px;
+  height: 515px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,8 +26,9 @@
 .header {
   font-size: 1.4rem;
   font-weight: bold;
-  line-height: 1.8rem;
-  margin: 5px;
+  line-height: 1.4rem;
+  margin-top: 12px;
+  border-bottom: 1px solid gainsboro;
 }
 
 .item {
@@ -37,6 +38,7 @@
   color: var(--warm-black);
   align-self: center;
   font-weight: 500;
+  white-space: nowrap
 }
 
 .item__rank {
@@ -47,9 +49,13 @@
 }
 
 .item__symbol {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 500;
   align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
 }
 
 .item .item__img {

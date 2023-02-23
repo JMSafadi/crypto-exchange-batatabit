@@ -113,6 +113,12 @@
   line-height: 1.8rem;
   color: var(--just-white);
   font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+}
+
+.plans-container--card--unlimited button:hover {
+  background-color: var(--just-white);
+  color: var(--warm-black);
 }
 
 .plan-card--unlimited--saving {
@@ -174,6 +180,11 @@
   line-height: 1.8rem;
   color: var(--black);
   font-family: 'DM Sans', sans-serif;
+  cursor: pointer;
+}
+.plans-container--card button:hover {
+  background-color: var(--warm-black);
+  color: white;
 }
 
 .plans-container--card--recommended {

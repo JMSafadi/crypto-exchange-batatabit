@@ -5,6 +5,8 @@ import ImgBackground from "./sections/imgBackground/imgBackground"
 import Main from "./sections/main/Main"
 import Plans from "./sections/plans/Plans"
 import './index.css'
+import './tablet.css'
+import './desktop.css'
 
 function App() {
   return (

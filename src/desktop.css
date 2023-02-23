@@ -1,0 +1,50 @@
+@media screen and (min-width: 1024px) {
+
+  .main__container .main__backgroundImg {
+    width: 70%;
+    height: 280px;
+  }
+
+  .header__title-container h1 {
+    font-size: 3.2rem;
+  }
+
+  .header__title-container p {
+    font-size: 2.0rem;
+    margin-top: 5rem;
+  }
+
+  .main__table {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .main__table-container {
+    width: 80%;
+  }
+
+  .table {
+    width: 100%;
+  }
+
+  .item__symbol {
+    align-items: center;
+    gap: 25px;
+    margin-left: 20px;
+  }
+
+  .product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+  }
+  
+  .img-container h2 {
+    font-size: 4.0rem;
+  }
+
+  .plans-container--slider {
+    justify-content: center;
+  }
+}

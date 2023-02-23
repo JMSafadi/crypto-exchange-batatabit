@@ -23,7 +23,7 @@ const CoinsTable = () => {
   return (
     <div className='main__table-container'>
       <div className='table'>
-          <div className='header'><p className='disable'>Ranking</p></div>
+          <div className='header'>#</div>
           <div className='header'>Nombre</div>
           <div className='header'>Precio</div>
           <div className='header disable'>Cap. de mercado</div>
@@ -31,8 +31,8 @@ const CoinsTable = () => {
 
           {data.map((item) => (
               <>
-                <div className='item item__rank'> <img className='item__img' src={`https://static.coincap.io/assets/icons/${item.symbol.toLowerCase()}@2x.png`} alt='coinImg'/> <p className='disable'># {item.rank}</p></div>
-                <div className='item item__symbol'>{item.name}</div>
+                <div className='item item__rank'><p className=''>{item.rank}</p></div>
+                <div className='item item__symbol'> <img className='item__img' src={`https://static.coincap.io/assets/icons/${item.symbol.toLowerCase()}@2x.png`} alt='coinImg'/> <div>{item.name}</div> </div>
                 <div className='item'>{dollarFilter(item.priceUsd)}</div>
                 <div className='item disable'>{dollarFilter(item.marketCapUsd)}</div>
                 <div className={

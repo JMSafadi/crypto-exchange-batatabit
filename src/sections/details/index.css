@@ -5,6 +5,7 @@
   height: auto;
   padding: 20px 10px;
   background-color: var(--black);
+  margin-top: 20px;
 }
 
 .product-detail--batata-logo {
