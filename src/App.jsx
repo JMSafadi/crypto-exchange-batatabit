@@ -4,6 +4,7 @@ import Header from "./sections/header/Header"
 import ImgBackground from "./sections/imgBackground/imgBackground"
 import Main from "./sections/main/Main"
 import Plans from "./sections/plans/Plans"
+import './index.css'
 
 function App() {
   return (

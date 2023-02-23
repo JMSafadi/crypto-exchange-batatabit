@@ -1,0 +1,105 @@
+@import '../index.css';
+
+.main__table-container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--just-white);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+  width: 90%;
+  min-width: 230px;
+  max-width: 300px;
+  margin: auto;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 25% 40% 35%;
+}
+
+.header {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  margin: 5px;
+}
+
+.item {
+  margin: 5px;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  color: var(--warm-black);
+  align-self: center;
+  font-weight: 500;
+}
+
+.item__rank {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  height: 20px;
+}
+
+.item__symbol {
+  font-size: 1.6rem;
+  font-weight: 500;
+  align-self: center;
+}
+
+.item .item__img {
+  width: 25px;
+  height: 25px;
+}
+
+th {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.disable {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
