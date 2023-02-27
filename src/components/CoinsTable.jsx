@@ -10,7 +10,7 @@ const CoinsTable = () => {
   const [data, setData] = useState([]);
 
   const getAssets = async () => {
-    const response = await fetch(`${url}/assets?limit=10`)
+    const response = await fetch(`${url}/assets?limit=50`)
     const jsonData = await response.json()
     const coins = jsonData.data
     setData(coins)
@@ -29,10 +29,10 @@ const CoinsTable = () => {
           <div className='header disable'>Cap. de mercado</div>
           <div className='header disable'>Variacion 24hs</div>
 
-          {data.map((item) => (
+          {data.map((item) => ( 
               <>
                 <div className='item item__rank'><p className=''>{item.rank}</p></div>
-                <div className='item item__symbol'> <img className='item__img' src={`https://static.coincap.io/assets/icons/${item.symbol.toLowerCase()}@2x.png`} alt='coinImg'/> <div>{item.name}</div> </div>
+                <div className='item item__symbol'> <img className='item__img' src={`https://static.coincap.io/assets/icons/${item.symbol.toLowerCase()}@2x.png`} alt='coinImg'/> <div className='item__name-container'>{item.name}<span className='disable symbol'>{item.symbol}</span></div> </div>
                 <div className='item'>{dollarFilter(item.priceUsd)}</div>
                 <div className='item disable'>{dollarFilter(item.marketCapUsd)}</div>
                 <div className={

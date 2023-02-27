@@ -21,13 +21,16 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 25% 40% 35%;
+  overflow-y: scroll;
 }
+
 
 .header {
   font-size: 1.4rem;
   font-weight: bold;
   line-height: 1.4rem;
   margin-top: 12px;
+  padding-bottom: 5px;
   border-bottom: 1px solid gainsboro;
 }
 
@@ -56,6 +59,18 @@
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
+  font-weight: bold;
+}
+
+.item__symbol .item__name-container {
+  display: flex;
+  align-items: center;
+}
+
+.item__symbol .symbol {
+  color: var(--grey);
+  margin: 5px;
+  font-size: 1rem;
 }
 
 .item .item__img {
