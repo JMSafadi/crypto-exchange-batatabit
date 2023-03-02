@@ -6,4 +6,5 @@ con la api de https://coincap.io/
 
 
 [Deploy](https://batatabitcrypto.web.app/)
+---
 Más proyectos en mi [portfolio](https://juliansafadi-app.web.app/)
