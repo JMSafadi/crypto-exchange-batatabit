@@ -10,7 +10,7 @@ con la api de https://coincap.io/
 * CSS
 * Numeral
 
-Para correr en tu servidor local:
+**Para correr el proyecto en servidor local, clona el repositorio y despues corre los siguientes comandos:**
 ```
 npm install
 npm run dev
