@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import { getAssets } from '../api/api';
 import { dollarFilter, pecentFilter} from '../filters';
 import './index.css'
 
@@ -28,6 +27,7 @@ const CoinsTable = () => {
           <div className='header'>Precio</div>
           <div className='header disable'>Cap. de mercado</div>
           <div className='header disable'>Variacion 24hs</div>
+          {/* <div className='header disable'><input></input></div> */}
 
           {data.map((item) => ( 
               <>

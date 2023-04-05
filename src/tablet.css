@@ -6,11 +6,11 @@
 
   .table {
     display: grid;
-    grid-template-columns: 10% 20% 24% 24% 20%
+    grid-template-columns: 10% 20% 24% 24% 20%;
   }
 
   .header {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.4rem;
     align-self: center;
     border: none;

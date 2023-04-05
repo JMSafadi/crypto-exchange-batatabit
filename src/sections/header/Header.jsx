@@ -8,11 +8,11 @@ const Header = () => {
       <header>
         <img src={batatabitLogo} alt="batatabit-logo"/>
         <div className="header__title-container">
-          <h1>La proxima revolucion en el intermcabio de criptomonedas</h1>
+          <h1>The next revolution in cryptocurrency exchange</h1>
           <p>
-            Batatabit te ayuda a navegar entre los diferentes precios y tendencias.
+            Batatabit helps you navigate through different prices and trends
           </p>
-          <a href="#plans" className="header__button">Conoce nuestros planes <span></span> </a>
+          <a href="#plans" className="header__button">Check out our plans <span></span> </a>
         </div>
     </header>
     </div>

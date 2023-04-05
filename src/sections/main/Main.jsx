@@ -4,15 +4,6 @@ import './index.css'
 
 const Main = () => {
 
-  // const getDate = () => {
-  //   const today = new Date()
-  //   const day = today.getDate()
-  //   const mounth = today.getMonth() + 1
-  //   const year = today.getFullYear()
-  //   const date = `${day}/${mounth}/${year}`
-  //   return date
-  // }
-
   const getDate = () => {
     const today = new Date()
     const date = today.toLocaleString()
@@ -23,16 +14,16 @@ const Main = () => {
     <section className="main__container">
     <div className="main__backgroundImg"></div>
     <div className="main__container-title">
-      <h2>Visibilizamos todas las tasas de cambio.</h2>
-      <p>Traemos informacion en tiempo real de las casas de cambio y las monedas más importantes del mercado.</p>
+      <h2>We make all exchange rates visible</h2>
+      <p>We bring real-time information from exchange houses and the most important currencies in the market</p>
     </div>
     <section>
       <div className="main__table">
-        <p className="main__table-title">Monedas principales</p>
+        <p className="main__table-title">Main currencies</p>
           <CoinsTable/>
       </div>
       <div className="main__table-date">
-        <p> <b>Actualizado:</b> {getDate()} </p>
+        <p> <b>Updated:</b> {getDate()} </p>
       </div>
       <div>
       </div>
