@@ -1,16 +1,15 @@
 [![batatabit-img.png](https://i.postimg.cc/mk3fcR3W/batatabit-img.png)](https://postimg.cc/jnjk9pkM)
 # Batatabit
 
-Aplicacion creada con React, donde podes ver informacion sobre las 50 criptomonedas con mayor capitalizacion del mercado. La informacion es traida en tiempo real
-con la api de https://coincap.io/
+The website is built with React, where you can view information about the top 50 cryptocurrencies by market capitalization. The information is provided in real time by https://coincap.io/
 
-**Tecnologias:**
+**Technologies:**
 * Vite
 * React
 * CSS
 * Numeral
 
-**Para correr el proyecto en servidor local, clona el repositorio y despues corre los siguientes comandos:**
+**To run the project on a local server, clone the repository and then run the following commands:**
 ```
 npm install
 npm run dev
@@ -18,4 +17,4 @@ npm run dev
 
 [Deploy](https://batatabitcrypto.web.app/)
 ---
-Más proyectos en mi [portfolio](https://juliansafadi-app.web.app/)
+More projects in my [portfolio](https://juliansafadi-app.web.app/)
