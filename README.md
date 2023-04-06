@@ -1,7 +1,8 @@
 [![batatabit-img.png](https://i.postimg.cc/mk3fcR3W/batatabit-img.png)](https://postimg.cc/jnjk9pkM)
 # Batatabit
 
-The website is built with React, where you can view information about the top 50 cryptocurrencies by market capitalization. The information is provided in real time by https://coincap.io/
+At Batatabit, you can find information about the top 50 cryptocurrencies by market capitalization. You can view their price, ranking, and 24-hour variation. The styles were created with pure CSS, without libraries, and it is responsive for access from any device.
+
 
 **Technologies:**
 * Vite
